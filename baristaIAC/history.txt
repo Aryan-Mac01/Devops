@@ -1,0 +1,42 @@
+192.168.56.22
+ 1  vi/etc/hostname
+    2  vi /etc/hostname
+    3  exit
+    4  history
+    5  cd ..
+    6  exit
+    7  cat /etc/os-release
+    8  yum install httpd wget vim unzip zip -y
+    9  systemctl start httpd
+   10  enable httpd
+   11  systemctl enable httpd
+   12  ip addr show
+   13  clear
+   14  cd /var/www/html
+   15  ls
+   16  vim index.html
+   17  systemctl resstart httpd
+   18  systemctl restart httpd
+   19  cd /tmp/
+   20  get https://www.tooplate.com/zip-templates/2137_barista_cafe.zip
+   21  wget https://www.tooplate.com/zip-templates/2137_barista_cafe.zip
+   22  unzip 2137_barista_cafe.zip
+   23  ld
+   24  ls
+   25  cd 2137_barista_cafe/
+   26  clear
+   27  pwd
+   28  ls
+   29  cp -r * /var/www/html
+   30  ls
+   31  ls /var/www/html
+   32  restart httpd
+   33  systemctl restart httpd
+   34  systemctl status httpd
+   35  ls var/www/html
+   36  ls /var/www/html
+   37  systemctl status firewalld
+   38  systemctl disable firewalld
+   39  clear
+   40  systemctl status firewalld
+   41  systemctl status httpd
