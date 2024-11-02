@@ -1,0 +1,5 @@
+docker run -> create a new image
+docker run hello-world -> create a new image named hello world
+docker images -> show all the available images on your system
+docker ps -> this will show you running containers
+docker ps -a -> this will show you all the containers
