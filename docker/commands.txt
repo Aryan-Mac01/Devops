@@ -1,5 +1,10 @@
-docker run -> create a new image
-docker run hello-world -> create a new image named hello world
-docker images -> show all the available images on your system
-docker ps -> this will show you running containers
-docker ps -a -> this will show you all the containers
+docker run                          ->                      create a new image
+docker run hello-world              ->                      create a new image named hello world
+docker images                       ->                      show all the available images on your system
+docker ps                           ->                      this will show you running containers
+docker ps -a                        ->                      this will show you all the containers
+-d                                  ->                      this means that run the image in the background
+docker inspect <container name/id>  ->                      to inspect the container
+docker build -t <image name>        ->                      this command is used to build the image
+docker rm <name of the containers>  ->                      used to remoce all the containers
+docker rmi <image id>               ->                      used to remove all the images
