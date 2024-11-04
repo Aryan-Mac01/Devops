@@ -8,3 +8,4 @@ docker inspect <container name/id>  ->                      to inspect the conta
 docker build -t <image name>        ->                      this command is used to build the image
 docker rm <name of the containers>  ->                      used to remoce all the containers
 docker rmi <image id>               ->                      used to remove all the images
+docker compose                      ->                      run multiple container at the same time

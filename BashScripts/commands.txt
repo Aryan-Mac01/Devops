@@ -1,0 +1,1 @@
+#!/bin/bash   ->   This opens the interpreter to execute the following command(always written in the first line)
