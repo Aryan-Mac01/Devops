@@ -1,0 +1,17 @@
+read -p "Enter the number:" NUM
+echo
+if [ $NUM -gt 100 ] =============== -gt means greater than
+then 
+    echo "We have entered in if block"
+    sleep 3
+    echo "Your number is greater than 100"
+    echo 
+    date
+elif [ $NUM -eq 100 ]
+    echo "Your number is equal to 100"
+
+else
+    echo "Your number is smaller than 100"
+fi ======================== this is used to end the if statement
+
+echo "Script execution completed successfully"
