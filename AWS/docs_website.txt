@@ -1,0 +1,6 @@
+sudo apt update
+sudo apt install apache2 wget unzip -y
+wget {link}
+unzip {name}
+cp -r {name}* /var/www/html/
+systemctl restart apache2
